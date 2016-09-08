@@ -1,10 +1,14 @@
 'use strict'
 
+// CSS
 import './css/main.css';
 
+// Dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Mosaic from 'mosaic-audio';
+
+// Components
+import Greeting from './js/components/greeting';
 
 const App = () => (
   <Greeting

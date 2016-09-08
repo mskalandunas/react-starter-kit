@@ -21,7 +21,9 @@
     "webpack-merge": "^0.14.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --port 3000"
   },
   "repository": {
     "type": "git",
